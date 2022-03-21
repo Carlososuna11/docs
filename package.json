@@ -1,0 +1,33 @@
+{
+  "name": "Documentacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs --open",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "register:components": "vitepress-rc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlososuna11/docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlososuna11/docs/issues"
+  },
+  "homepage": "https://github.com/Carlososuna11/docs#readme",
+  "devDependencies": {
+    "vitepress": "^0.22.3",
+    "vitepress-theme-demoblock": "^1.4.2"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}
